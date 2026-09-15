@@ -1,6 +1,4 @@
-require('dotenv').config();
-
-const pool = require('./database');
+const pool = require('./src/database/db');
 
 async function testarConexao() {
     try {
